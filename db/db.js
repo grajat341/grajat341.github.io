@@ -1,6 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Rajat Gupta, a Software Engineer at CommerceIQ (A Unicorn Startup) with a specialization in Backend Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
+  "I'm Rajat Gupta, a Software Engineer 2 at Microsoft with a specialization in backend systems. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
   "Apart from coding, I love to watch Sports, listen to music, and travel.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
   "Thanks for taking the time to learn a little about me!",
@@ -93,19 +93,45 @@ export const projects = {
 
 export const experience = [
   {
+    title: "Microsoft",
+    duration: "August 2024 - Present",
+    subtitle: "Software Engineer 2",
+    details: [
+      "Migrated the load-balancing proxy from NGINX to Envoy with zero downtime for 30,000 customers, preserving feature parity and designing a safe rollout strategy.",
+      "Built AI-agent monitoring to identify migration issues before they reached production.",
+      "Developed custom backend SSL certificate validation for Azure Application Gateway, a high-performance load balancer serving customers worldwide.",
+      "Improved Fleet Degradation Analysis detection techniques to keep release degradations below 2%; created Agentic FUD, an internal tool for identifying issues earlier.",
+      "Improved performance-testing infrastructure, reducing the analysis window from one month to one week.",
+      "Designed Gateway Health dashboards to speed up customer issue reporting and implemented multi-certificate support for Azure Application Gateway."
+    ],
+    tags: ["Azure", "Application Gateway", "Envoy Proxy", "AI Agents"],
+    icon: "heartbeat",
+  },
+  {
     title: "CommerceIQ",
-    duration: "June 2022 - Present",
+    duration: "March 2024 - July 2024",
+    subtitle: "SDE-2",
+    details: [
+      "Migrated the backend technology stack from Snowflake to Databricks, reducing costs by 30%.",
+      "Reduced API response latency by implementing query-level caching."
+    ],
+    tags: ["Java", "Spring Boot", "Snowflake", "Databricks"],
+    icon: "heartbeat",
+  },
+  {
+    title: "CommerceIQ",
+    duration: "June 2022 - March 2024",
     subtitle: "Software Engineer",
     details: [
-      "Currently involved in developing an E commerce Omni Channel Product which everyone in online retail can use to increase their profatibility.",
-      "Collaborating closely with cross-functional teams such as product, backend, and QA, ensuring timely delivery of product builds to meet deadlines"
+      "Developed an e-commerce omnichannel product to help online retailers improve profitability.",
+      "Collaborated with product, backend, and QA teams to deliver product builds on schedule."
     ],
-    tags: ["Java8", "SpringBoot", "Snowflake", "AWS", "Jenkins", "Python", "Redis"],
+    tags: ["Java 8", "Spring Boot", "AWS", "Jenkins", "Python", "Redis"],
     icon: "heartbeat",
   },
   {
     title: "Informatica",
-    duration: "June 2020 - June 2022",
+    duration: "August 2020 - June 2022",
     subtitle: "Software Engineer",
     details: [
       "Successfully implemented Data Masking Algorithms to enable secure transfer of business data among organizations, Achieved more than 20 story points in each sprint.",
