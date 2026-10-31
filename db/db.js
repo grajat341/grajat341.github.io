@@ -9,44 +9,50 @@ export const bio = [
 export const skills = [
   {
     title: "Languages",
-    skillName: "Java, Spring Boot, Python, AWS Lambda, Step Functions",
+    skillName: "C#, Python, Go, Java",
     color: "1",
     percentage: "80",
   },
   {
-    title: "Databases",
-    skillName: "My SQL,Snowflake,Amazon RDS,My SQL",
+    title: "Databases & Data Warehouses",
+    skillName: "MySQL, Cosmos DB, Snowflake, Amazon RDS, Databricks",
     color: "1",
     percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Spring Boot, JUnit, Mockito, Javascript",
+    title: "Cloud & Frameworks",
+    skillName: "Azure, AWS, Spring, Spring Boot",
     color: "6",
-    percentage: "70",
+    percentage: "80",
   },
   {
-    title: "Design",
-    skillName: "Low Level Design (LLD), Design Patterns,High Level Design (HLD) ",
+    title: "Data & Analytics",
+    skillName: "PySpark, Snowpark, Data Pipeline Design, Analytical Dashboards, Power BI",
     color: "4",
     percentage: "70",
   },
   {
-    title: "Version Control",
-    skillName: "Git,GitHub, JIRA, Bitbucket",
+    title: "AI",
+    skillName: "Agentic AI, Copilot, Claude",
     color: "7",
     percentage: "70",
   },
   {
-    title: "Tools",
-    skillName: "Postman,Docker,Jenkins",
+    title: "DevOps",
+    skillName: "Jenkins, Docker, Kubernetes",
     color: "3",
     percentage: "80",
   },
   {
-    title: "Editor",
-    skillName: "Intellij,VS Code,PyCharm",
+    title: "Engineering",
+    skillName: "System Design at Scale, REST APIs, Low-Level Design, Problem Solving",
     color: "6",
+    percentage: "80",
+  },
+  {
+    title: "Tools",
+    skillName: "Git, Maven, Postman",
+    color: "3",
     percentage: "70",
   },
 ];
@@ -102,7 +108,8 @@ export const experience = [
       "Developed custom backend SSL certificate validation for Azure Application Gateway, a high-performance load balancer serving customers worldwide.",
       "Improved Fleet Degradation Analysis detection techniques to keep release degradations below 2%; created Agentic FUD, an internal tool for identifying issues earlier.",
       "Improved performance-testing infrastructure, reducing the analysis window from one month to one week.",
-      "Designed Gateway Health dashboards to speed up customer issue reporting and implemented multi-certificate support for Azure Application Gateway."
+      "Designed Gateway Health dashboards to speed up customer issue reporting and implemented multi-certificate support for Azure Application Gateway.",
+      "Received Microsoft's Exceeding Expectations Annual Reward."
     ],
     tags: ["Azure", "Application Gateway", "Envoy Proxy", "AI Agents"],
     icon: "heartbeat",
@@ -145,13 +152,11 @@ export const experience = [
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
-    duration: "",
-    subtitle: "Chandigarh University,Chandigarh",
+    title: "Bachelor of Engineering, Computer Science",
+    duration: "May 2020",
+    subtitle: "Chandigarh University, Chandigarh",
     details: [
-      "I successfully completed my Engineering  with CGPA of 9.05.",
-      "As an active competitive programmer, I have solved 450 + leetcode, showcasing my skills in solving complex programming problems.I am in top 10 Percentile on the Website",
-      "My work is  a testament to my ability to create high-quality and impactful code.",
+      "Graduated with a CGPA of 9.05."
     ],
     tags: [
       "Data Structures & Algorithms",
@@ -164,11 +169,11 @@ export const education = [
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Jammu And Kashmir",
+    title: "12th Grade, Science",
+    duration: "April 2016",
+    subtitle: "SP Smart International School, Jammu",
     details: [
-      "I am proud to have achieved an exceptional 94 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "Graduated with 93.8%."
     ],
     tags: ["Physics", "Chemistry", "Mathematics"],
     icon: "book",
